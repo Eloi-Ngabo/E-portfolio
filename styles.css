@@ -54,7 +54,7 @@ a:hover {
     background-color: #000;
 }
 
-.link__hover-effect:after{
+.link__hover-effect:hover:after{
     width: 100%;
     left: 0;
 }
@@ -348,7 +348,7 @@ nav {
     opacity: 1;
 }
 
-.project__list {
+.project__list{
     padding-top: 40px;
 }
 
@@ -437,7 +437,7 @@ footer {
 }
 
 /* Small phones, tables, Large smartphones */
-@media(max-width768px) {
+@media(max-width:768px) {
 nav {
     height: 68px;
 }
